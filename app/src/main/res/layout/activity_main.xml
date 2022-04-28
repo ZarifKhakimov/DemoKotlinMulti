@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/light_theme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginTop="150dp"
+            android:id="@+id/b_click"
+            android:layout_width="257dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="75dp"
+            android:text="Click"
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="435dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
